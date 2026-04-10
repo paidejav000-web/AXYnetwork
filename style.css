@@ -37,7 +37,6 @@ body {
 }
 
 .card h2 {
-  margin: 0;
   color: red;
 }
 
@@ -59,9 +58,27 @@ button:hover {
   background: darkred;
 }
 
-/* Themes */
 .war { border-color: red; }
 .lifesteal { border-color: crimson; }
 .anarchy { border-color: darkred; }
 .peaceful { border-color: green; }
 .template { border-color: gray; }
+
+.title {
+  color: red;
+  margin-top: 20px;
+}
+
+.info-box {
+  background: #111;
+  border: 2px solid darkred;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+ul {
+  padding-left: 20px;
+}
